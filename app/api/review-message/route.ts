@@ -42,7 +42,8 @@ export async function POST(req: Request) {
         The score should be based on the length, complexity, and structure of the message.
         The score should be based on the overall effectiveness of the message in helping the user.
         Provide a list of suggestions for improvement to the message.
-        Do not include the score or the suggestions in the review.
+        Do not include the score review section of the response.
+        Do not include suggestions in the review section of the response.
         `,
   });
 
